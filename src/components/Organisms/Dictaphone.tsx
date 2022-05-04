@@ -91,7 +91,7 @@ const Dictaphone = () => {
       <div className='flex '>
         <select
           className='select select-primary w-full max-w-xs'
-          // onChange={(e) => handleChange(e)}
+          onChange={(e) => handleChange(e)}
         >
           <option value='ja-JP'>ja-JP</option>
           <option value='en-US'>en-US</option>
